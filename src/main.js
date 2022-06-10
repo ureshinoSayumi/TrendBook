@@ -10,6 +10,10 @@ import 'bootstrap'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 router.beforeEach((to, from, next) => {
+  if (to.path === '/') {
+    next('/login')
+    return
+  }
   if (to.path === '/login') {
     next()
     return
