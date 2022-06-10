@@ -288,7 +288,7 @@ export default {
   background: #E2EDFA 0% 0% no-repeat padding-box;
 }
 .col-items-RWD {
-  display: none !important;
+  display: none;
 }
 .col-items {
   display: flex;
